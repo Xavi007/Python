@@ -35,7 +35,7 @@ while not end_of_game:
 
     #Check if user is wrong.
     if guess not in chosen_word:
-        #TODO-5: - If the letter is not in the chosen_word, print out the letter and let them know it's not in the word.
+        #TODO-5: - If the letter is not in the chosen_word, print out the letter and let them know it's not in the word
         print(f"You guessed {guess}, that's not in the word. You lose a life.")
         
         lives -= 1
